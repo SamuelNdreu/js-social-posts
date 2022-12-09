@@ -29,18 +29,18 @@ const posts = [
             "name": "Mercedes Benz_Al",
             "image": "https://unsplash.com/photos/xZIJqYNIOfc"
         },
-        "likes": 78,
+        "likes": 800,
         "created": "2021-05-15"
     },
     {
-        "id": 4,
+        "id": 14,
         "content": "Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias.",
         "media": "https://unsplash.com/photos/ELaOukUlgeY",
         "author": {
             "name": "Zhelgyre Mistri",
             "image": null
         },
-        "likes": 56,
+        "likes": 25,
         "created": "2021-04-03"
     },
     {
@@ -51,9 +51,11 @@ const posts = [
             "name": "Aqif Kopertoni",
             "image": "https://unsplash.com/photos/ud0twV98uvg"
         },
-        "likes": 95,
+        "likes": 600,
         "created": "2021-03-05"
     }
 ];
 
 const container = document.getElementById('container')
+
+for (let i = 0; i < posts.length; i++) {
