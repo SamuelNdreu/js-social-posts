@@ -97,3 +97,4 @@ for (let i = 0; i < posts.length; i++) {
 
 const likesButton = document.querySelectorAll("a.like-button")
 const likesCounter = document.getElementById('like-counter-1')
+
